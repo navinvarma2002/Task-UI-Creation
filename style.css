@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+}
+.Background-image{
+
+    background-image: url('./images/Home.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.nav-container{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #181818;    
+    padding: 15px;
+    align-items: center;
+        
+}
+
+.nav-container p:hover{
+
+    color: orange;
+    text-decoration: overline;
+    cursor: pointer;
+}
+.Top-navbar{
+
+    display: flex;
+    color: white;
+    margin: 20px;
+    margin-bottom: 15px;
+
+   
+    
+}
+.nav-center1{
+
+    display: flex;
+     
+}
+.nav-center2{
+
+    display: flex;
+    
+     
+}
+.Logo{
+
+    height: 60px;
+    width: 60px;
+}
+
+.title__1{
+
+    color: #181818;
+    font-size:250%;
+    font-weight:600;
+}
+
+.title__2{
+
+    color:  #181818;
+    font-size:300%;
+}
+.wordings{
+
+    position: absolute;
+    top: 38%;
+    left: 2%;
+}
+.btn1{
+
+    color: aliceblue;
+    background-color:black;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: medium;
+}
+.btn1:hover{
+
+    background-color:rebeccapurple;
+    color:black;
+    cursor: pointer;
+
+}
+
+.btn2{
+
+    color: aliceblue;
+    background-color:black;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: medium;
+}
+.btn2:hover{
+
+    background-color:rebeccapurple;
+    color:black;
+    cursor: pointer;
+
+}
+
+.right-nav{
+
+    display: flex;
+}
+.search{
+
+    height: 30px;
+    width: 30px;
+   
+}
+
+@media screen and (max-width:700px){
+
+    body{
+
+        font-size: 13px;
+    }
+    .nav-container{
+
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        
+    }
+    .Top-navbar{
+
+        margin: 10px;
+        font-size: medium;
+        
+       
+    }
+    
+    .title__1{
+
+        font-size: large;
+        color: white;
+    }
+    .title__2{
+
+        font-size:x-large;
+        color: white;
+    }
+    .nav-center2{
+    
+        display: none;
+    
+    }
+    .nav-center1{
+
+        padding-top: 10px;
+        align-items:center;
+    }
+    .wordings{
+
+        padding-left: 10%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+
+    }
+    .Background-image{
+
+        background-image: url('./images/Home2.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        position: relative;
+    }
+    .btn1{
+
+        background-color:  blueviolet;
+       
+    }
+    .btn1:hover{
+
+        background-color:orange;
+        color: black;
+       
+    }
+    .btn2{
+
+        background-color:  blueviolet;
+       
+    }
+    .btn2:hover{
+
+        background-color: orange;
+        color: black;
+       
+    }
+    .right-nav{
+
+        display: none;
+    }
+   
+ 
+    
+}
