@@ -174,7 +174,7 @@ body{
     .Background-image{
 
         background-image: url('./images/Home2.jpg');
-        background-size:cover;
+        background-size:auto;
         background-repeat: no-repeat;
         height: 100vh;
         position: relative;
